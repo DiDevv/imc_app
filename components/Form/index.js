@@ -16,7 +16,7 @@ export default function Form(){
     }
 
     function validationImc(){
-        if(weight != null && height != null){
+        if(weight != "" && height != ""){
             imcCalculator()
             setMessageImc("Seu IMC é igual:")
             setTextBtn("Calcular Novamente")
